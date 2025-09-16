@@ -13,7 +13,7 @@ A nextjs project with bun to run playwright test commands from the browser and v
 **Note: Docker must be running for the quick start to work.**
 
 ```bash
-git clone https://github.com/suyash5053/playwright-browser-runner.git && cd playwright-browser-runner && docker compose up --build
+git clone https://github.com/Aditya-Ojha/PWRunner.git && cd playwright-browser-runner && docker compose up --build
 ```
 
 ### Installation
@@ -24,12 +24,12 @@ Installation will take time for the first time as two docker images are built an
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/suyash5053/playwright-browser-runner.git
+git clone https://github.com/Aditya-Ojha/PWRunner.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd playwright-browser-runner
+cd PWRunner
 ```
 
 3. Build the Docker image:
@@ -43,12 +43,12 @@ docker-compose up --build
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/suyash5053/playwright-browser-runner.git
+git clone https://github.com/Aditya-Ojha/PWRunner.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd playwright-browser-runner
+cd PWRunner
 ```
 
 3. Install dependencies:
@@ -83,28 +83,3 @@ docker network create app-network-global
 5. Visualize the command execution in the embedded browser.
 
 6. Command will be saved in the history.
-
-
-## Future Improvements
-
-- Creating a production version of the app.
-- Adding better UI for the embedded browser.
-- Adding a way to show logs as well as errors in the UI.
-- Adding a click event to run the command from the history.
-- Adding a way to save the history to a file.
-- Better error handling and diagnostics.
-
-## 🤝 Contributing
-
-- Fork the repository
-- Create your feature branch (git checkout -b feature/amazing-feature)
-- Commit your changes (git commit -m 'Add some amazing feature')
-- Push to the branch (git push origin feature/amazing-feature)
-- Open a Pull Request
-
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-## 🐛 Issues
-If you encounter any issues, please report them on the GitHub Issues page.
-## ⭐ Support
-If you find this project helpful, please consider giving it a star on GitHub!
